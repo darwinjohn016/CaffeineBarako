@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300&display=swap');
+
+:root{
+  --dominant-color: #1b1107;
+  --secondary-color: #efdfc5;
+  --tertiary-color: #ddb288;
+  --light-accent-color: #fefefe;
+  --dark-accent-color: #1a1006;
+  --accent-color: #ffee01;
+}
+
+
+*,
+*::before,
+*::after
+{
+  font-family: 'Poppins',sans-serif, 'Font Awesome 6 Free', 'Font Awesome 6 Brands';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  line-height: 1.6;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  line-height: 1.1;
+  max-width: 75ch;
+}
+
+p,
+label
+{
+  max-width: 75ch;
+  font-weight: lighter;
+  font-size: clamp(0.9rem,5vw,1rem);
+}
+
+h1
+{
+  font-size: clamp(1.7rem,5vw,2.3rem);
+}
+
+h2
+{
+  font-size: clamp(1.4rem,5vw,2rem);
+}
+
+h3
+{
+  font-size: clamp(1.2rem,5vw,1.4rem);
+}
+
+
+a,
+button,
+input
+{
+  font-size: clamp(1rem,5vw,1.1rem);
+}
+
+a
+{
+  text-decoration: none;
+}
+
+button
+{
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+img
+{
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
+
+.container
+{
+  width: min(90%,1200px);
+  margin: 0 auto;
+}
